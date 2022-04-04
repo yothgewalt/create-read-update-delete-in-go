@@ -1,0 +1,40 @@
+PUT http://localhost:3000/update/7
+Content-Type: application/json
+
+{
+  "firstname": "yongyuth"
+}
+
+###
+GET http://localhost:3000/delete
+Accept: application/json
+
+###
+DELETE http://localhost:3000/delete/hard/4
+Accept: application/json
+
+###
+DELETE http://localhost:3000/delete/soft/4
+Accept: application/json
+
+###
+GET http://localhost:3000/read/7
+Accept: application/json
+
+###
+GET http://localhost:3000/read
+Accept: application/json
+
+###
+POST http://localhost:3000/create
+Content-Type: application/json
+
+{
+  "firstname": "Yongyuth",
+  "lastname": "Chuankhuntod",
+  "salary": 60000,
+  "role": "Software Engineer",
+  "age": 18
+}
+
+###
